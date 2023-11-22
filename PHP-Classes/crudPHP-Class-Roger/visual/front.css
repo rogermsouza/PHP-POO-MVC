@@ -1,0 +1,56 @@
+form {
+    display: grid;
+    grid-template: auto;
+    justify-items: baseline;
+}
+input[type="text"]{
+    padding: 10px;
+    border: solid 1px #cecece;
+    margin: 0 0 15px 0;
+}
+input[type="submit"]{
+    padding: 10px 20px;
+    border: solid 1px #cecece;
+    margin: 0 0 15px 0;
+    background-color: #C1CDC1;
+}
+input[type="submit"]:hover{
+    background-color: #E0EEE0;
+    cursor: pointer;
+   
+}
+.avisoCadastrado {
+    border: solid 2px greenyellow;
+    background-color: green;
+    color: aliceblue;
+    padding: 15px;
+    cursor: progress;
+}
+
+.avisoExcluido {
+    border: solid 2px brown;
+    background-color: yellow;
+    color: red;
+    padding: 15px;
+    font-weight: bold;
+    cursor: progress;
+}
+
+.bdVazio {
+    width: 15%;
+    font-weight: bold;
+    color: red;
+}
+.iconeBot{
+    margin: 0 0 0 10px;
+}
+.linhaClientes {
+    display: grid;
+    grid-template-columns: auto auto;
+    width: 400px;
+    padding: 10px;
+    justify-content: space-between;
+}
+.linhaClientes:hover {
+    background-color: beige;
+}
