@@ -1,0 +1,48 @@
+body {
+    margin: 20px 0 0 20px;
+    padding: 0;
+    background-color: #000;
+}
+
+article {
+    width: 50%;
+    margin: 0 auto;
+    background-color: #FFF;
+    padding: 1em;
+    border-radius: 15px;
+}
+
+p {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 1em;
+    font-weight: bold;
+}
+
+h1, h2, h3 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    font-size: 3em;
+}
+
+input {
+    padding: 10px;
+    border: solid 1px #000;
+}
+
+input:hover {
+    padding: 10px;
+    border: solid 1px #000;
+    background-color: bisque;
+}
+
+input[type=submit]{
+    background-color: aqua;
+}
+input[type=submit]:hover{
+    background-color: rgb(60, 148, 148);
+}
+
+label {
+    font-size: 1em;
+    font-style: underline;
+}
