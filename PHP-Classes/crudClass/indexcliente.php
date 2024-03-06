@@ -18,7 +18,6 @@
         $iconAtualiza = "https://cdn-icons-png.flaticon.com/512/126/126794.png";
         require_once("ConexaoBD.php");
       
-
         //Listas os clientes existentes
         $ConBD = new ConexaoBD("localhost", "sistemaERP", "root", "");
         $clientes = $ConBD->executaSQL("SELECT * FROM clientes");
@@ -34,11 +33,8 @@
                 <a href="excluir.php?codigo=<?php echo $cli['codigo'] ?>" onclick="return confirm('Deseja excluir <?php echo $cli['nome']?>?')">
                     <img src=<?php echo $iconeDelete ?> class="iconeBot" title="Excluir Cliente"></a>
                     <a href="indexcliente.php?codigo=<?php echo $cli['codigo']?>" class="linkMudaForm"  data-codigo="<?php echo $cli['codigo']?>"><img src="<?php echo $iconAtualiza ?>" class="iconeBot"></a>
-                    
-                
-                </div>    
-            
-                
+                              
+                </div>        
             </div>
         <?php } ?>
 
