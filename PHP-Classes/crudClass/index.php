@@ -10,8 +10,6 @@
 <body>
     <h1>CRUD de Clientes</h1>
     <br><br>
-    
-    
     <?php
         session_start();
         require_once("elementos.php");
@@ -40,9 +38,7 @@
     
     <br><br>
  
-    <?php
-            
-            
+    <?php   
             if(!empty($_SESSION['msg'])){
                 echo  $_SESSION['msg'];
                 session_destroy();
